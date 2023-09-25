@@ -39,9 +39,8 @@ Project could be opened with PyCharm IDEA. It's flask-based application that req
 For testing the Postman, Rester or different REST Client could be used.
 
 <details>
-  <summary>Click me - Postman Collection</summary>
+  <summary>🖱️ Click me - Postman Collection</summary>
   
-  ### Heading
   If u want to use the postman collection, please save the following json as the file and import to the Postman.
 
   ### Postman Collection
@@ -206,5 +205,7 @@ For testing the Postman, Rester or different REST Client could be used.
 # Contact Information
 
 👨 Anastasia Tracewska
+
 ☎️ +48 518096899    
+
 📫 tracewska@gmail.com
