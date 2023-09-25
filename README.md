@@ -34,6 +34,23 @@ DB url
 DB username
 DB password
 
+And create the DB DDL structure, for this, u can use the following SQL script:
+
+```sql
+create table NAME_AND_PICTURE (
+	id varchar(36) primary key,
+	title varchar(255) not null,
+	img varchar(255) not null
+);
+```
+
+Do remember to setup the connection string in the application code (`config.py`), accordingly 
+to the database connection properties:
+
+```python
+'postgresql://postgres:admin123@localhost:5432/netquest_assignment'
+```
+
 Project could be opened with PyCharm IDEA. It's flask-based application that requires Python 🐍 3.8.
 
 For testing the Postman, Rester or different REST Client could be used.
