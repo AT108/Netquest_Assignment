@@ -20,7 +20,7 @@ The Name and Picture object schema is as follows:
 }
 ```
 
-# Project Setup
+## Project Setup
 
 To run application on docker please run the following commands:
 
@@ -51,6 +51,8 @@ to the database connection properties:
 'postgresql://postgres:admin123@localhost:5432/netquest_assignment'
 ```
 
+## Postman Collection
+
 Project could be opened with PyCharm IDEA. It's flask-based application that requires Python 🐍 3.8.
 
 For testing the Postman, Rester or different REST Client could be used.
@@ -58,9 +60,8 @@ For testing the Postman, Rester or different REST Client could be used.
 <details>
   <summary>🖱️ Click me - Postman Collection</summary>
   
-  If u want to use the postman collection, please save the following json as the file and import to the Postman.
+  If you want to use the Postman collection, please save the following json as the file and import it into Postman.
 
-  ### Postman Collection
   ```json
   {
 	"info": {
@@ -218,6 +219,42 @@ For testing the Postman, Rester or different REST Client could be used.
 }
   ```
 </details>
+
+## Original Assignment Statement
+### Introduction
+
+The purpose of this assignment is to see how you would develop an API. You can do it in the 
+language you choose. 
+
+Regarding the code, you must develop, and do it like it was to be on production. Follow your 
+own coding conventions but make it coherent through all the code you develop. Write clean, 
+maintainable, quality code using all the components you need. Testing is required. 
+
+### Assignment
+
+Build a REST service with a CRUD design to create the following result when requesting a full 
+list of records. 
+
+The response of the list endpoint should be something like this: 
+
+```js
+[ 
+   { 
+      "title":"When dreams come true.", 
+      "img":"https://i.imgur.com/HJhuWx8.mp4" 
+   }, 
+   { 
+      "title":"This sweet lady was dumped at the lake today. Coldest day of the year.", 
+      "img":"https://i.imgur.com/mV9vjmB.jpg" 
+   }, 
+   {...} # more items 
+]
+```
+
+Nice to have but not required: 
+- Think about implementing an authentication method for the API. 
+- Dockerize the API, what does this means? Create an image that holds the API with all the 
+libraries and dependencies installed and the API is running and accepting requests. 
 
 # Contact Information
 
